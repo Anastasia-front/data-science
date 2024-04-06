@@ -53,3 +53,27 @@ Read the data from the table "Birth Rate in the Regions of Ukraine (1950—2019)
 10. In which region was the highest birth rate in 2014?
 11. Build a bar chart of birth rates by region in 2019.
 </details>
+
+## File_Analysis
+<details>
+  <summary>Click to expand/collapse</summary>
+Conduct an analysis of the file 2017_jun_final.csv. The file contains the results of a survey of developers in June 2017.
+
+1. Read the file 2017_jun_final.csv using the read_csv method.
+2. Read the obtained table using the head method.
+3. Determine the size of the table using the shape method.
+4. Determine the data types of all columns using the dataframe.dtypes.
+5. Calculate the proportion of missing values in each column (use the isnull and sum methods).
+6. Remove all columns with missing values except the "Programming Language" column.
+7. Calculate again the proportion of missing values in each column and make sure that only the "Programming Language" column remains.
+8. Remove all rows in the original table using the dropna method.
+9. Determine the new size of the table using the shape method.
+10. Create a new table python_data, which will only contain rows with specialists who indicated Python as their programming language.
+11. Determine the size of the python_data table using the shape method.
+12. Using the groupby method, perform grouping by the "Position" column.
+13. Create a new DataFrame where for the grouped data by the "Position" column, perform data aggregation using the agg method and find the minimum and maximum values in the "Monthly Salary" column.
+14. Create a function fill_avg_salary, which will return the average monthly salary. Use it for the apply method and create a new column "avg".
+15. Create descriptive statistics using the describe method for the new column.
+16. Save the obtained table to a CSV file.
+</details>
+
