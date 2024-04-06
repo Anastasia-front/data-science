@@ -3,7 +3,7 @@
 ## intro_data_science
 <details>
   <summary>Click to expand/collapse</summary>
-PART 1: 
+ **PART 1:** 
 1. Create a one-dimensional array (vector) with the first 10 natural numbers and print its values.
 2. Create a two-dimensional array (matrix) of size 3x3, fill it with zeros, and print its values.
 3. Create a 5x5 array, fill it with random integers in the range from 1 to 10, and print its values.
@@ -23,7 +23,8 @@ PART 1:
 17. Create a 3x4 matrix with arbitrary integers and create a matrix with the squares of these numbers.
 18. Create a vector of size 4, fill it with random integers in the range from 1 to 50, and find a vector with the square roots of these numbers.
 
-PART 2 (additional, optional):
+
+**PART 2** (additional, optional):
 1. Replace all odd numbers in the array with -1: `arr = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])`.
 2. Create and reshape a 1D array into a 2D array with 2 rows.
 3. Create two 2D arrays `a` and `b`, and vertically stack them.
@@ -39,7 +40,7 @@ PART 2 (additional, optional):
 ## Getting_to_know_Pandas
 <details>
   <summary>Click to expand/collapse</summary>
-Read the data from the table "Birth Rate in the Regions of Ukraine (1950—2019)" (https://uk.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8)
+Read the data from the table "Birth Rate in the Regions of Ukraine (1950—2019)" - https://uk.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8
 
 1. Display the first rows of the table using the `head` method.
 2. Determine the number of rows and columns in the DataFrame (use the `shape` attribute).
