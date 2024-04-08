@@ -6,24 +6,24 @@
 
   **PART 1**
 
-1. Create a one-dimensional array (vector) with the first ``10`` natural numbers and print its values.
-2. Create a two-dimensional array (matrix) of size ``3x3``, fill it with zeros, and print its values.
-3. Create a ``5x5`` array, fill it with random integers in the range from ``1`` to ``10``, and print its values.
-4. Create a ``4x4`` array, fill it with random floating-point numbers in the range from ``0`` to ``1``, and print its values.
-5. Create two one-dimensional arrays of size ``5``, fill them with random integers in the range from ``1`` to ``10``, and perform element-wise addition, subtraction, and multiplication.
-6. Create two vectors of size ``7``, fill them with arbitrary numbers, and find their dot product.
-7. Create two matrices of size ``2x2`` and ``2x3``, fill them with random integers in the range from ``1`` to ``10``, and multiply them together.
-8. Create a ``3x3`` matrix, fill it with random integers in the range from ``1`` to ``10``, and find its inverse matrix.
-9. Create a ``4x4`` matrix, fill it with random floating-point numbers in the range from ``0`` to ``1``, and transpose it.
-10. Create a ``3x4`` matrix and a vector of size ``4``, fill them with random integers in the range from ``1`` to ``10``, and multiply the matrix by the vector.
-11. Create a ``2x3`` matrix and a vector of size ``3``, fill them with random floating-point numbers in the range from ``0`` to ``1``, and multiply the matrix by the vector.
-12. Create two matrices of size ``2x2``, fill them with random integers in the range from ``1`` to ``10``, and perform element-wise multiplication.
-13. Create two matrices of size ``2x2``, fill them with random integers in the range from ``1`` to ``10``, and find their product.
-14. Create a ``5x5`` matrix, fill it with random integers in the range from ``1`` to ``100``, and find the sum of its elements.
-15. Create two matrices of size ``4x4``, fill them with random integers in the range from ``1`` to ``10``, and find their difference.
-16. Create a ``3x3`` matrix, fill it with random floating-point numbers in the range from ``0`` to ``1``, and find a column vector containing the sum of elements of each row of the matrix.
-17. Create a ``3x4`` matrix with arbitrary integers and create a matrix with the squares of these numbers.
-18. Create a vector of size ``4``, fill it with random integers in the range from ``1`` to ``50``, and find a vector with the square roots of these numbers.
+1. Create a one-dimensional array (vector) with the first `10` natural numbers and print its values.
+2. Create a two-dimensional array (matrix) of size `3x3`, fill it with zeros, and print its values.
+3. Create a `5x5` array, fill it with random integers in the range from `1` to `10`, and print its values.
+4. Create a `4x4` array, fill it with random floating-point numbers in the range from `0` to `1`, and print its values.
+5. Create two one-dimensional arrays of size `5`, fill them with random integers in the range from `1` to `10`, and perform element-wise addition, subtraction, and multiplication.
+6. Create two vectors of size `7`, fill them with arbitrary numbers, and find their dot product.
+7. Create two matrices of size `2x2` and `2x3`, fill them with random integers in the range from `1` to `10`, and multiply them together.
+8. Create a `3x3` matrix, fill it with random integers in the range from `1` to `10`, and find its inverse matrix.
+9. Create a `4x4` matrix, fill it with random floating-point numbers in the range from `0` to `1`, and transpose it.
+10. Create a `3x4` matrix and a vector of size `4`, fill them with random integers in the range from `1` to `10`, and multiply the matrix by the vector.
+11. Create a `2x3` matrix and a vector of size `3`, fill them with random floating-point numbers in the range from `0` to `1`, and multiply the matrix by the vector.
+12. Create two matrices of size `2x2`, fill them with random integers in the range from `1` to `10`, and perform element-wise multiplication.
+13. Create two matrices of size `2x2`, fill them with random integers in the range from `1` to `10`, and find their product.
+14. Create a `5x5` matrix, fill it with random integers in the range from `1` to `100`, and find the sum of its elements.
+15. Create two matrices of size `4x4`, fill them with random integers in the range from `1` to `10`, and find their difference.
+16. Create a `3x3` matrix, fill it with random floating-point numbers in the range from `0` to `1`, and find a column vector containing the sum of elements of each row of the matrix.
+17. Create a `3x4` matrix with arbitrary integers and create a matrix with the squares of these numbers.
+18. Create a vector of size `4`, fill it with random integers in the range from `1` to `50`, and find a vector with the square roots of these numbers.
 
 **PART 2** (additional, optional)
 1. Replace all odd numbers in the array with -1: `arr = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])`.
@@ -66,17 +66,17 @@ Conduct an analysis of the file 2017_jun_final.csv. The file contains the result
 3. Determine the size of the table using the shape method.
 4. Determine the data types of all columns using the dataframe.dtypes.
 5. Calculate the proportion of missing values in each column (use the isnull and sum methods).
-6. Remove all columns with missing values except the "Programming Language" column.
-7. Calculate again the proportion of missing values in each column and make sure that only the "Programming Language" column remains.
-8. Remove all rows in the original table using the dropna method.
-9. Determine the new size of the table using the shape method.
-10. Create a new table python_data, which will only contain rows with specialists who indicated Python as their programming language.
-11. Determine the size of the python_data table using the shape method.
-12. Using the groupby method, perform grouping by the "Position" column.
-13. Create a new DataFrame where for the grouped data by the "Position" column, perform data aggregation using the agg method and find the minimum and maximum values in the "Monthly Salary" column.
-14. Create a function fill_avg_salary, which will return the average monthly salary. Use it for the apply method and create a new column "avg".
-15. Create descriptive statistics using the describe method for the new column.
-16. Save the obtained table to a CSV file.
+6. 1. Remove all columns with missing values except the "Programming Language" column.
+   2. Calculate again the proportion of missing values in each column and make sure that only the "Programming Language" column remains.
+7. Remove all rows in the original table using the dropna method.
+8. Determine the new size of the table using the shape method.
+9. Create a new table python_data, which will only contain rows with specialists who indicated Python as their programming language.
+10. Determine the size of the python_data table using the shape method.
+11. Using the groupby method, perform grouping by the "Position" column.
+12. Create a new DataFrame where for the grouped data by the "Position" column, perform data aggregation using the agg method and find the minimum and maximum values in the "Monthly Salary" column.
+13. Create a function fill_avg_salary, which will return the average monthly salary. Use it for the apply method and create a new column "avg".
+14. Create descriptive statistics using the describe method for the new column.
+15. Save the obtained table to a CSV file.
 </details>
 
 ##  Analyze_the_dataset_from_Kaggle.com
@@ -87,48 +87,84 @@ Conduct an analysis of the file 2017_jun_final.csv. The file contains the result
    For this part of the task, you will need to not only write the code but also answer accompanying questions. Wherever you see bold text "Answer:", you will need to insert the question into the file and provide the answer to it.
 <hr/>
 
-**PART 1: Initial data exploration**
+**PART 1: Initial data**
+<br/>
+**DESCRIPTION: Prepare table**
+
+1. Read the csv file (use the read_csv function)
+2. Output the first five lines (the head function is used)
+3. Display the dimensions of the dataset (use the shape attribute)
+- `Question`  How many books does the dataset store?
+
+7 variables (columns) are available for each of the books. Let's take a closer look at them:
+Name - the name of the book
+Author - the author
+User Rating - rating (on a 5-point scale)
+Reviews - number of reviews
+Price - price (in dollars as of 2020)
+Year - the year when the book entered the Top-50 rating
+Genre - a genre
+
+To simplify further work, let's tweak the variable names a little. As you can see, here all the names start with a capital letter, and one even contains a space. This is highly undesirable and can be quite inconvenient. Let's change the case to lowercase, and replace the space with an underscore (snake_style). And now we will study a useful data frame attribute: columns (you can simply assign a list of new names to this attribute)
+
+df.columns = ['name', 'author', 'user_rating', 'reviews', 'price', 'year', 'genre']
+
+**PART 2: Initial data exploration**
 <br/>
 **DESCRIPTION: Check Missing Values and Unique Genres**
 
-1. Question: Check if all rows have enough data: output the number of missing values (na) in each of the columns (use the isna and sum functions).
-2. Question: Are there any missing values in any of the variables? (Yes/No)
-3. Question: Check what unique values are in the "genre" column (use the unique function). What are the unique genres?
-4. Question: Now, look at the distribution of prices: create a histogram (use kind='hist').
-5. Question: Determine the maximum, minimum, mean, and median prices (use the max, min, mean, and median functions). What is the maximum price? What is the minimum price? What is the mean price? What is the median price?
+1. Check if all rows have enough data: output the number of missing values (na) in each of the columns (use the isna and sum functions).
+- `Question`  Are there any missing values in any of the variables? (Yes/No)
+2. Check what unique values are in the "genre" column (use the unique function). 
+- `Question`  What are the unique genres?
+3. Determine the maximum, minimum, mean, and median prices (use the max, min, mean, and median functions). 
+- `Question`  What is the maximum price? 
+- `Question`  What is the minimum price? 
+- `Question`  What is the mean price? 
+- `Question`  What is the median price?
+4. Now, look at the distribution of prices: create a histogram (use kind='hist').
 <hr/>
 
-**PART 2: Data search and sorting**
+**PART 3: Data search and sorting**
 <br/>
 **DESCRIPTION: Analysis of Book Ratings, Reviews, and Prices**
 
-1. Question: What is the highest rating in the dataset?
-2. Question: How many books have such rating?
-3. Question: Which book has the most reviews?
-4. Question: Among the books that made it to the Top 50 in 2015, which one is the most expensive (you can use an intermediate dataframe)?
-5. Question: How many Fiction genre books made it to the Top 50 in 2010 (use &)?
-6. Question: How many books with a rating of 4.9 made it to the rating in 2010 and 2011 (use | or the isin function)?
-7. Question: Finally, let's sort all books that made it to the rating in 2015 and cost less than $8 in ascending order of price (use the sort_values function). What is the last book in the sorted list?
+- `Question`  What is the highest rating in the dataset?
+- `Question`  How many books have such rating?
+- `Question`  Which book has the most reviews?
+- `Question`  Among the books that made it to the Top 50 in 2015, which one is the most expensive (you can use an intermediate dataframe)?
+- `Question`  How many Fiction genre books made it to the Top 50 in 2010 (use &)?
+- `Question`  How many books with a rating of 4.9 made it to the rating in 2010 and 2011 (use | or the isin function)?
+  - Finally, let's sort all books that made it to the rating in 2015 and cost less than $8 in ascending order of price (use the sort_values function). 
+- `Question`  What is the last book in the sorted list?
 <hr/>
 
-**PART 3: Data aggregation and table merging**
+**PART 4: Data aggregation and table merging**
 <br/>
 **DESCRIPTION: Aggregate Book Prices by Genre and Author**
 
-1. Question: First, let's look at the maximum and minimum prices for each genre (use the groupby and agg functions, for counting minimum and maximum values, use max and min). Do not take all columns, select only those you need. What is the maximum price for the Fiction genre? What is the minimum price for the Fiction genre? What is the maximum price for the Non Fiction genre? What is the minimum price for the Non Fiction genre?
-2. Question: Now, create a new dataframe that will contain the number of books for each author (use the groupby and agg functions, for counting, use count). Do not take all columns, select only those you need. What is the dimension of the resulting table? Which author has the most books? How many books does this author have?
-3. Question: Now create a second dataframe that will contain the average rating for each author (use the groupby and agg functions, for calculating the average value, use mean). Do not take all columns, select only those you need. Which author has the minimum average rating? What is the average rating for this author?
+1. First, let's look at the maximum and minimum prices for each genre (use the groupby and agg functions, for counting minimum and maximum values, use max and min). Do not take all columns, select only those you need.
+- `Question`  What is the maximum price for the Fiction genre? 
+- `Question`  What is the minimum price for the Fiction genre? 
+- `Question`  What is the maximum price for the Non Fiction genre? 
+- `Question`  What is the minimum price for the Non Fiction genre?
+2. `Question`  Now, create a new dataframe that will contain the number of books for each author (use the groupby and agg functions, for counting, use count). Do not take all columns, select only those you need. 
+- `Question`  What is the dimension of the resulting table? 
+- `Question`  Which author has the most books? 
+- `Question`  How many books does this author have?
+3. `Question`  Now create a second dataframe that will contain the average rating for each author (use the groupby and agg functions, for calculating the average value, use mean). Do not take all columns, select only those you need. 
+- `Question`  Which author has the minimum average rating? 
+- `Question`  What is the average rating for this author?
 4. Merge the last two dataframes so that for each author, you can see the number of books and the average rating (use the concat function with the axis parameter). Save the result in a variable.
-5. Sort the dataframe in ascending order of the number of books and the rating (use the sort_values function). Which author is first on the list?
+5. Sort the dataframe in ascending order of the number of books and the rating (use the sort_values function). 
+- `Question`  Which author is first on the list?
 <hr/>
 
-**PART 4: Visualization**
+**PART 5: Visualization**
 <br/>
 **DESCRIPTION: Visualize Book Data Trends**
 
-1. For each of the previous tasks, add ``3`` to ``5`` plots of different types of functions of your choice. Style the plots so that each graph in each work is different and not similar to others. You can use both matplotlib and seaborn.
-2. Don't forget to add the directive ``%matplotlib inline`` to the Jupyter file so that the plots are built inside the document.
+1. For each of the previous tasks, add `3` - `5` plots of different types of functions of your choice. Style the plots so that each graph in each work is different and not similar to others. You can use both matplotlib and seaborn.
+2. Don't forget to add the directive `%matplotlib inline` to the Jupyter file so that the plots are built inside the document.
 <hr/>
-
-**PART 5: Add documentation to repository**
 </details>
