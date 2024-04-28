@@ -41,7 +41,7 @@
 ## Getting_to_know_Pandas
 <details>
   <summary>Click to expand/collapse</summary>
-Read the data from the table "Birth Rate in the Regions of Ukraine (1950—2019)" - https://uk.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8
+Read the data from the table [Birth Rate in the Regions of Ukraine (1950—2019)](https://uk.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8)
 
 1. Display the first rows of the table using the `head` method.
 2. Determine the number of rows and columns in the DataFrame (use the `shape` attribute).
@@ -167,4 +167,28 @@ df.columns = ['name', 'author', 'user_rating', 'reviews', 'price', 'year', 'genr
 1. For each of the previous tasks, add `3` - `5` plots of different types of functions of your choice. Style the plots so that each graph in each work is different and not similar to others. You can use both matplotlib and seaborn.
 2. Don't forget to add the directive `%matplotlib inline` to the Jupyter file so that the plots are built inside the document.
 <hr/>
+</details>
+
+
+## linear_regression
+<details>
+  <summary>Click to expand/collapse</summary>
+Read the data from the table [Housing](https://drive.google.com/file/d/1-rAa4XT4_fI0dOBlMNuE6a7jB0wln_Qo/view)
+
+This homework assignment will be entirely related to linear regression and its implementation. So let's break our homework into several parts:
+
+1. write a linear regression hypothesis function in vector form;
+2. create a function to calculate the loss function in vector form;
+3. implement one step of gradient descent;
+4. find the best parameters **w** for a dataset using the functions you wrote that predict the price of a house depending on the area, number of bathrooms, and number of bedrooms;
+5. find the same parameters using an analytical solution;
+6. use LinearRegression from the scikit-learn library to check the predicted values and compare the results.
+</details>
+
+
+## Classification_and_evaluation_of_model_performance
+<details>
+  <summary>Click to expand/collapse</summary>
+
+This time you need to complete the tasks from [this](https://colab.research.google.com/drive/1XpRovHlJJ16FZojZd8-9ci1pyiUiYogx?usp=sharing#scrollTo=B6rE566oF0cv) notebook. To solve the proposed tasks, you also need to download a dataset with [bike rental data](https://drive.google.com/file/d/1-4wgz9AFXrD3tZfqHJLMhCmy4BUzAX96/view).
 </details>
