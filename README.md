@@ -2,7 +2,7 @@
 
 ## intro_data_science
 <details>
-  <summary>Click to expand/collapse</summary>
+  <summary>Click to expand/collapse</summary><br/>
 
   **PART 1**
 
@@ -40,7 +40,7 @@
 
 ## Getting_to_know_Pandas
 <details>
-  <summary>Click to expand/collapse</summary>
+  <summary>Click to expand/collapse</summary><br/>
 Read the data from the table [Birth Rate in the Regions of Ukraine (1950—2019)](https://uk.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8)
 
 1. Display the first rows of the table using the `head` method.
@@ -58,7 +58,7 @@ Read the data from the table [Birth Rate in the Regions of Ukraine (1950—2019)
 
 ## File_Analysis
 <details>
-  <summary>Click to expand/collapse</summary>
+  <summary>Click to expand/collapse</summary><br/>
 Conduct an analysis of the file 2017_jun_final.csv. The file contains the results of a survey of developers in June 2017.
 
 1. Read the file 2017_jun_final.csv using the read_csv method.
@@ -81,7 +81,7 @@ Conduct an analysis of the file 2017_jun_final.csv. The file contains the result
 
 ##  Analyze_the_dataset_from_Kaggle.com
 <details>
-  <summary>Click to expand/collapse</summary>
+  <summary>Click to expand/collapse</summary><br/>
    Utilize data from the Top-50 bestselling books on Amazon for 11 years (from 2009 to 2019). The dataset is publicly available on Kaggle.com. Download the CSV file from the link and move it to the same directory as your working notebook for convenience. Then proceed to the tasks.
 
    For this part of the task, you will need to not only write the code but also answer accompanying questions. Wherever you see bold text "Answer:", you will need to insert the question into the file and provide the answer to it.
@@ -172,7 +172,7 @@ df.columns = ['name', 'author', 'user_rating', 'reviews', 'price', 'year', 'genr
 
 ## linear_regression
 <details>
-  <summary>Click to expand/collapse</summary>
+  <summary>Click to expand/collapse</summary><br/>
 Read the data from the table [Housing](https://drive.google.com/file/d/1-rAa4XT4_fI0dOBlMNuE6a7jB0wln_Qo/view)
 
 This homework assignment will be entirely related to linear regression and its implementation. So let's break our homework into several parts:
@@ -188,14 +188,14 @@ This homework assignment will be entirely related to linear regression and its i
 
 ## Classification_and_evaluation_of_model_performance
 <details>
-  <summary>Click to expand/collapse</summary>
+  <summary>Click to expand/collapse</summary><br/>
 
 This time you need to complete the tasks from [this](https://colab.research.google.com/drive/1XpRovHlJJ16FZojZd8-9ci1pyiUiYogx?usp=sharing#scrollTo=B6rE566oF0cv) notebook. To solve the proposed tasks, you also need to download a dataset with [bike rental data](https://drive.google.com/file/d/1-4wgz9AFXrD3tZfqHJLMhCmy4BUzAX96/view).
 </details>
 
 ## other_algorithms_and_tutoring
 <details>
-  <summary>Click to expand/collapse</summary>
+  <summary>Click to expand/collapse</summary><br/>
 
 Using the accelerometer data from a mobile phone, you need to classify what activity a person is doing: walking, standing, running, or climbing stairs. You can find the dataset [here](https://drive.google.com/file/d/1nzrtQpfaHL0OgJ_eXzA7VuEj7XotrSWO/view).
 
@@ -209,7 +209,7 @@ Compare the results of both algorithms on different features and different model
 
 ## learning_without_a_teacher
 <details>
-  <summary>Click to expand/collapse</summary>
+  <summary>Click to expand/collapse</summary><br/>
 
 
 **Task 1**
@@ -224,7 +224,7 @@ Visualize the result of clustering. For the case of the mnist dataset, you will 
 
 ## Recommender_systems
 <details>
-  <summary>Click to expand/collapse</summary>
+  <summary>Click to expand/collapse</summary><br/>
 
 Take the [movielens](https://surprise.readthedocs.io/en/stable/dataset.html) dataset and build a matrix factorization model. In this library, it is called SVD. Select the best parameters using cross-validation, also experiment with other calculation [algorithms](https://surprise.readthedocs.io/en/stable/prediction_algorithms_package.html) (SVD++, NMF) and choose the one that will be optimal.
 
