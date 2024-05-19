@@ -192,3 +192,42 @@ This homework assignment will be entirely related to linear regression and its i
 
 This time you need to complete the tasks from [this](https://colab.research.google.com/drive/1XpRovHlJJ16FZojZd8-9ci1pyiUiYogx?usp=sharing#scrollTo=B6rE566oF0cv) notebook. To solve the proposed tasks, you also need to download a dataset with [bike rental data](https://drive.google.com/file/d/1-4wgz9AFXrD3tZfqHJLMhCmy4BUzAX96/view).
 </details>
+
+## other_algorithms_and_tutoring
+<details>
+  <summary>Click to expand/collapse</summary>
+
+Using the accelerometer data from a mobile phone, you need to classify what activity a person is doing: walking, standing, running, or climbing stairs. You can find the dataset [here](https://drive.google.com/file/d/1nzrtQpfaHL0OgJ_eXzA7VuEj7XotrSWO/view).
+
+Use SVM algorithms and a random forest from the scikit-learn library. You can take accelerometer readings as characteristics, but to improve the results of the algorithms, you can first prepare our dataset and calculatetime domain features. These features are described in more detail in [this](https://drive.google.com/file/d/1-18YEmp0YjV3hN9iI8J1i_FWd55HFwOK/view) article.
+
+Compare the results of both algorithms on different features and different models with each other.
+
+Compare the results of both algorithms on different features and different models with each other. Use the classification report method for comparison.
+
+</details>
+
+## learning_without_a_teacher
+<details>
+  <summary>Click to expand/collapse</summary>
+
+
+**Task 1**
+
+In this task, you need to download [this](https://drive.google.com/file/d/1Zvz20Iqeia1eEtFbGa3NcIrt_SNSimP6/view) dataset. Here you will find 2 files - a two-dimensional dataset and an mnist dataset. For each of them, apply the K-means algorithm for clustering. Use the elbow method to find the optimal number of clusters.
+
+
+**Task 2**
+
+Visualize the result of clustering. For the case of the mnist dataset, you will also need to use the PCA algorithm to reduce the dimensionality of your data to a 2-dimensional version.
+</details>
+
+## Recommender_systems
+<details>
+  <summary>Click to expand/collapse</summary>
+
+Take the [movielens](https://surprise.readthedocs.io/en/stable/dataset.html) dataset and build a matrix factorization model. In this library, it is called SVD. Select the best parameters using cross-validation, also experiment with other calculation [algorithms](https://surprise.readthedocs.io/en/stable/prediction_algorithms_package.html) (SVD++, NMF) and choose the one that will be optimal.
+
+You can find tips on how to build this model in the documentation for this library.
+</details>
+
